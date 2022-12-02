@@ -1,0 +1,39 @@
+body{background-image: url('bg.png');
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+h1
+{
+    color:rgb(2, 2, 2);
+}
+
+
+.topnav {
+  background-color: rgb(137, 221, 240);
+  overflow: hidden;
+  display: horizontal;
+}
+.topnav a {
+  float: left;
+  color: #0f0f0f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(131, 230, 197);
+  color: rgb(140, 175, 144);
+}
+.topnav a.active {
+  background-color: #34c58e;
+  color: white;
+}
+
+img  {
+  float: right;
+}

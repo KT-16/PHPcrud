@@ -1,0 +1,9 @@
+var mail =document.addform.mail.value;
+    var p1=/^[A-Za-z0-9._%+-]+@STSPL\.COM$/;
+    var p2=/^[A-Za-z0-9._%+-]+@stspl\.com$/;
+    var p1=/^[A-Za-z0-9._%+-]+@STSPL\.com$/;
+    var p2=/^[A-Za-z0-9._%+-]+@stspl\.COM$/;
+    if (!((p1).test(mail) || (p2).test(mail) || (p3).test(mail) || (p4).test(mail))){
+      document.getElementById("msg").innerHTML="**INVALID EMAIL Please enter email like:a@stspl.com";
+      return false;
+  }
